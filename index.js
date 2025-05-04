@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 
-app.get("/x", async (req, res) => {
+app.get("/mostakim/x", async (req, res) => {
   const name = req.query.name;
 
   try {
